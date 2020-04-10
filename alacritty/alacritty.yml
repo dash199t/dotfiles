@@ -270,7 +270,9 @@ background_opacity: 0.85
 #dynamic_title: true
 
 cursor:
-  style: Underline
+  #style: Underline
+  style: Beam
+  #style: Blinking
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
@@ -533,4 +535,3 @@ key_bindings:
 
   # Print all received window events.
   #print_events: false
-
